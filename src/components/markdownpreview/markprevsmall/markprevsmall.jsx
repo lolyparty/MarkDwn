@@ -1,11 +1,12 @@
 import React from 'react' 
 import {Button} from '../../btn/btn'
+import './markprevsmall.css'
 
 
-const Markprevsmall = ({markdown,preview})=>{
+const Markprevsmall = ({markdown,preview,markdownactive,prevactive})=>{
     return <div className="markprevbtns">
-    <Button styleName="markdwn" name="Markdown" changed={markdown}/>
-    <Button styleName="prev" name="preview" changed={preview}/>
+    <Button styleName={`markdwn ${markdownactive}`} name="Markdown" changed={markdown}/>
+    <Button styleName={`prev ${prevactive}`} name="Preview" changed={preview}/>
 </div>
 }
 

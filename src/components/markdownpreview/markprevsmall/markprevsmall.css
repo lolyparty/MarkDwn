@@ -1,0 +1,27 @@
+
+.markdwn, .prev{
+    padding:5px;
+    border:none;
+    background:#fff;
+    font-size: 1rem;
+}
+
+.markdwn:focus, .prev:focus{
+    outline: #b6b6b6;
+}
+
+.markdwn{
+    margin-left:5px;
+}
+
+.prev{
+    margin-left:35px;
+}
+
+.active{
+    border-bottom:1px solid #b8b8b8;
+}
+
+.prevactive{
+    border-bottom:1px solid #b8b8b8;
+}
