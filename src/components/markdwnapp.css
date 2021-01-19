@@ -1,0 +1,21 @@
+.markprevbtns{
+    padding:5px 40px;
+}
+
+.markdwn, .prev{
+    margin-left:50px;
+    padding:5px;
+}
+
+.markdwn_big{
+    display:flex;
+}
+
+.markdwn_big .markeddiv{
+    width:50%;
+}
+
+.markdwn_big .prevdiv{
+    width:50%;
+}
+

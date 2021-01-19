@@ -2,12 +2,12 @@ import React from 'react'
 import {Button} from '../../btn/btn'
 import './markdown.css'
 
-const Markdown = ()=>{
+const Markdown = ({cleared, copied,markup,value})=>{
     return <div className="markeddiv">
-        <textarea onChange=""></textarea>
+        <textarea rows="28" onChange={markup} placeholder="Markdown" value={value}></textarea>
         <br />
-        <Button className="clear" name="Clear" changed='' />
-        <Button className="copy" name="ocpy to clipboard" changed="" />
+        <Button styleName="clear" name="Clear" changed={cleared} />
+        <Button styleName="copy" name="Copy to clipboard" changed={copied} />
     </div>
 }
 
