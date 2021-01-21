@@ -2,13 +2,13 @@ import React from 'react'
 import {Button} from '../../btn/btn'
 import './markdown.css'
 
-const Markdown = ({cleared, copied,markup,value})=>{
-    return <div className="markeddiv">
-        <textarea rows="28" onChange={markup} placeholder="Markdown" value={value}></textarea>
+const Markdown = React.forwardRef((props,ref)=>{
+    return <div className="markeddiv" >
+        <textarea ref={ref} rows="28" onChange={props.markup} placeholder="Markdown" value={props.value}></textarea>
         <br />
-        <Button styleName="clear" name="Clear" changed={cleared} />
-        <Button styleName="copy" name="Copy to clipboard" changed={copied} />
+        <Button styleName="clear" name="Clear" changed={props.cleared} />
+        <Button styleName="copy" name="Copy markdown to clipboard" changed={props.copied} />
     </div>
-}
+})
 
 export {Markdown}
