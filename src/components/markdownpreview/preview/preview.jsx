@@ -2,9 +2,9 @@ import React from 'react'
 import './preview.css'
 
 
-const Preview = () =>{
+const Preview = ({html}) =>{
     return <div className="prevdiv">
-        <div className="previewdiv">
+        <div className="previewdiv" dangerouslySetInnerHTML={{__html:html}}>
 
         </div>
     </div>
