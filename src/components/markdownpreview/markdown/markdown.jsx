@@ -7,7 +7,7 @@ const Markdown = React.forwardRef((props,ref)=>{
         <textarea ref={ref} rows="28" onChange={props.markup} placeholder="Markdown" value={props.value}></textarea>
         <br />
         <Button styleName="clear" name="Clear" changed={props.cleared} />
-        <Button styleName="copy" name="Copy markdown to clipboard" changed={props.copied} />
+        <Button styleName="copy" name="Copy to clipboard" changed={props.copied} />
     </div>
 })
 
