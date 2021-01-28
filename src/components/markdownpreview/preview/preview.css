@@ -1,10 +1,10 @@
 .prevdiv{
-    padding:20px 13px 10px 13px;
+    padding:18px 13px 10px 13px;
 }
 
 .previewdiv{
     background: #cccccc;
-    min-height: 430px;
+    min-height: 425px;
     width:95%;
     margin: 0px auto;
     padding:5px;

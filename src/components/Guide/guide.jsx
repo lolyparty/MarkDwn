@@ -4,7 +4,7 @@ import './guide.css'
 const Guide = () =>{
     return <div className="markdwnguide">
     <hr />
-    <h3 className="header_exp"> Here's a simple guide to get you started with writing markdown</h3>
+    <h3 className="header_exp"> Here's a simple guide to get you started with writing markdown.</h3>
     <div className="guide_header">
         <h2>Headings</h2>
         <p className="guide_explanation">To create a heading, add number signs (#) in front of a word or phrase. The number of number signs you use should correspond to the heading level. </p>
@@ -53,7 +53,7 @@ const Guide = () =>{
     </div>
     <div className="guide_header">
         <h2>Bold and Italic</h2>
-        <p className="guide_explanation">To emphasize text with bold and italics at the same time, add three asterisks or underscores before and after a word or phrase. To bold and italicize the middle of a word for emphasis, add three asterisks without spaces around the letters</p>
+        <p className="guide_explanation">To emphasize text with bold and italics at the same time, add three asterisks or underscores before and after a word or phrase. To bold and italicize the middle of a word for emphasis, add three asterisks without spaces around the letters.</p>
         <div className="markdown_block">
         This text is ***emphasized***.
         <br/>
@@ -86,7 +86,7 @@ const Guide = () =>{
     </div>
     <div className="guide_header">
         <h3>Nested Blockquotes</h3>
-        <p className="guide_explanation">Blockquotes can be nested. Add a &gt;&gt; in front of the paragraph you want to nest</p>
+        <p className="guide_explanation">Blockquotes can be nested. Add a &gt;&gt; in front of the paragraph you want to nest.</p>
         <div className="markdown_block">
         &gt; Dorothy followed her through many of the beautiful rooms in her castle.
         <br/>
