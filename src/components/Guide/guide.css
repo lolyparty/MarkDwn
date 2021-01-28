@@ -8,16 +8,22 @@ hr{
 
 .guide_header{
     margin:10px auto;
-    line-height: 1.5;
+    line-height: 1.4;
 }
 
-h3{
-    color:#424242;
+.header_exp{
+    color:#3b3b3b;
 }
 
 .guide_header h2{
     margin-top:5px;
+    margin-bottom:5px;
     color:#292929;
+}
+
+.guide_header h3{
+    margin-top:5px;
+    margin-bottom:3px;
 }
 
 .guide_explanation{
@@ -26,10 +32,11 @@ h3{
 }
 
 .markdown_block{
-    margin:10px 0px;
-    background:#adadad;
+    margin:15px 0px;
+    background:#c2c2c2;
     padding:20px;
     max-width:400px;
     border-radius: 5px;
     color:#000;
+    line-height: 1.6;
 }
