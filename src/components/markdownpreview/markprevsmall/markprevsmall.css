@@ -1,3 +1,6 @@
+.markprevbtns{
+    padding:5px 20px;
+}
 
 .markdwn, .prev{
     padding:5px;
@@ -24,4 +27,10 @@
 
 .prevactive{
     border-bottom:1px solid #b8b8b8;
+}
+
+@media screen and (max-width:300px){
+    .markprevbtns{
+        padding:5px 10px;
+    }
 }
