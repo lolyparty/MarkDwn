@@ -1,16 +1,20 @@
 .header{
     display:flex;
     justify-content: space-between;
-    color:#5a5a5a;
+    color:#414141;
     padding:10px 20px;
 }
 
 .guide{
     text-decoration: none;
-    color:#5a5a5a;
+    color:#474747;
     font-size: 1.2rem;
     padding-top:7.5px;
     text-align: center;
+}
+
+.logo h1{
+    margin:0px;
 }
 
 @media screen and (max-width:510px){

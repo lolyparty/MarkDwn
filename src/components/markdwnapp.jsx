@@ -29,6 +29,7 @@ const Markdwnapp = () =>{
         const {value} = e.target
         setText(value)
         setHtml(marked(value))
+        console.log(html)
     }
 
     const cleared = (e)=>{
