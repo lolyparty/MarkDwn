@@ -34,3 +34,9 @@ textarea{
         font-size: 0.6rem;
     }
 }
+
+@media screen and (max-width:510px){
+    .clear, .copy{
+        margin-bottom:10px;
+    }
+}
