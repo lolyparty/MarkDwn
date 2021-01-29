@@ -7,7 +7,7 @@ hr{
 }
 
 .guide_header{
-    margin:10px auto;
+    margin:20px auto;
     line-height: 1.4;
 }
 
@@ -16,7 +16,7 @@ hr{
 }
 
 .guide_header h2{
-    margin-top:5px;
+    margin-top:15px;
     margin-bottom:5px;
     color:#292929;
 }
@@ -35,7 +35,7 @@ hr{
     margin:15px 0px;
     background:#c2c2c2;
     padding:20px;
-    min-width:400px;
+    width:90%;
     border-radius: 5px;
     color:#000;
     line-height: 1.6;
